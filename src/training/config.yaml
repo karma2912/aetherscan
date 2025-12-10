@@ -1,0 +1,9 @@
+base_model: "best.pt"
+dataset_yaml: "../../dataset/data.yaml"
+epochs: 10
+batch_size: 16
+imagesz: 640
+project: "../../runs"
+run_name: "yolov11_experiment_013"
+device: cpu
+workers: 4

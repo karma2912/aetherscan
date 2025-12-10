@@ -1,0 +1,24 @@
+name: EDU
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+      - torch
+      - torchvision
+      - ultralytics
+      - flask
+      - flask-cors
+      - flask-socketio        
+      - opencv-python
+      - matplotlib
+      - numpy
+      - pyyaml
+      - pandas
+      - scikit-learn
+      - pillow                
+      - gunicorn              
+      - eventlet              
+      - python-socketio       
+      - python-dotenv         
+      - seaborn               
+      - pywebview             
