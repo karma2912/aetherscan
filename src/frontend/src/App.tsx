@@ -10,10 +10,10 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Landing />}></Route>
-        <Route path={`/jenji/live`} element={<LiveDetectionComponent />} />
-        <Route path="/jenji/predict/upload" element={<ImageDetectionComponent />}></Route>
-        <Route path="/jenji/docs" element={<Documentation />}></Route>
-        <Route path="/jenji/scores" element={<ScoreComponent />}></Route>
+        <Route path={`/aetherscan/live`} element={<LiveDetectionComponent />} />
+        <Route path="/aetherscan/predict/upload" element={<ImageDetectionComponent />}></Route>
+        <Route path="/aetherscan/docs" element={<Documentation />}></Route>
+        <Route path="/aetherscan/scores" element={<ScoreComponent />}></Route>
       </Routes>
     </BrowserRouter>
   );
